@@ -33,3 +33,12 @@ doc:id="DOC_ID" >
 
 [NOTE]
 The access key and secret key are not listed in the connector configuration. Instead, the correct values are used from the values specified in the settings.
+
+== Next Step
+
+You can try out the xref:amazon/amazon-s3-connector-examples.adoc[Example].
+
+== See Also
+
+* https://forums.mulesoft.com[MuleSoft Forum]
+* https://support.mulesoft.com/s/knowledge[Knowledge Base Articles]

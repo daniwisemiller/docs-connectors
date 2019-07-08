@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 endif::[]
 :imagesdir: ../../assets/images/
 
-To configure a connector in Anypoint Studio, follow this process:
+To configure a connector in Anypoint Studio:
 
 . Install the connector.
 . Configure the connector.
@@ -13,9 +13,9 @@ To configure a connector in Anypoint Studio, follow this process:
 == Install Amazon S3
 
 . In Anypoint Studio, click the Exchange icon in the Studio task bar.
-. Click Login in Exchange and supply your Anypoint Platform username and password.
+. In Exchange, click *Login* and supply your Anypoint Platform username and password.
 . Search for the Amazon S3 connector, click on the connector, and click *Add to Project*.
-. Follow the prompts to install the connector.
+. Follow the prompts.
 
 == Configure Amazon S3
 
@@ -59,16 +59,17 @@ The https://github.com/minio/[Minio Project] is one example of Amazon S3 storage
 
 == Configure an Input Source
 
-Configure an input source for the Amazon S3 connector such as a connector operation, HTTP Listener, or Scheduler.
+Configure an input source for the Amazon S3 connector such as a connector operation, *HTTP Listener*, or *Scheduler*.
 
-The following operations for this connector can be put in the Source
-area of the Studio canvas:
+You can put the following operations for the connector in the *Source* area of the Studio canvas:
 
 * *On Deleted Object* - Initiates access to your app when an Amazon S3 object is deleted.
 * *On New Object* - Initiates access to your app when an Amazon S3 object is created.
 
-== Next
-Now that you have read this document you can try out the xref:amazon/amazon-s3-connector-examples.adoc[Examples].
+== Next Step
+
+After configuring Studio,
+see the xref:amazon/amazon-s3-connector-config-topics.adoc[Additional Configuration Information] topic for more configuration steps.
 
 == See Also
 
