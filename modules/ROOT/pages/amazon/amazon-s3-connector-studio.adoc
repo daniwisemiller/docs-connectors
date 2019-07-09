@@ -19,9 +19,10 @@ To configure a connector in Anypoint Studio:
 
 == Configure Amazon S3
 
-To use the Amazon S3 connector in your Mule app, configure a global Amazon S3 element that can be used by all Amazon S3 connectors in your application.
+To configure this connector:
 
-. Click the *Global Elements* tab at the base of the canvas, and then click *Create*.
+. Drag and drop a connector operation into the Studio canvas.
+. To create a global element for the connector, click the *Global Elements* tab at the base of the canvas, and then click *Create*.
 . In the *Choose Global Type* window, expand *Connector Configuration*, and click *Amazon S3 Configuration*.
 . Click *OK*.
 . Select *Amazon S3 Configuration (Configuration)*, and click *Edit*.
@@ -68,7 +69,7 @@ You can put the following operations for the connector in the *Source* area of t
 
 == Next Step
 
-After configuring Studio,
+After configuring the connector in Studio,
 see the xref:amazon/amazon-s3-connector-config-topics.adoc[Additional Configuration Information] topic for more configuration steps.
 
 == See Also
