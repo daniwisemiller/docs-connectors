@@ -10,7 +10,7 @@ a DataWeave expression.
 
 This example shows how to invoke instance methods: 
 
-. You can the `new` operation (`<java:new/>`) from the Java module to create the instance on which
+. You can use the `new` operation (`<java:new/>`) from the Java module to create the instance on which
 the method is invoked. 
 . Use the `invoke` operation from the Java module to invoke a method (`init()`) that does not take any arguments.
 
